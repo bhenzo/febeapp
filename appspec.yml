@@ -7,16 +7,16 @@ hooks:
     BeforeInstall:
         - location: /home/ubuntu/scripts/install_dependencies.sh
           timeout: 30
-          runas: root
+          runas: ubuntu
     AfterInstall:
         - location: /home/ubuntu/scripts/change_permissions.sh
           timeout: 30
-          runas: root
+          runas: ubuntu
     ApplicationStart:
         - location: /home/ubuntu/scripts/start_server.sh
           timeout: 30
-          runas: root
+          runas: ubuntu
     ApplicationStop:
         - location: /home/ubuntu/scripts/stop_server.sh
-          timeout: 30
-          runas: root
+          timeout: 3
+          runas: ubuntu
