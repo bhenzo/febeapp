@@ -5,6 +5,6 @@ files:
       destination: /home/ubuntu/apps
 hooks:
     ApplicationStop:
-        - location: scripts/stop_server.sh
+        - location: scripts/stop_application.sh
           timeout: 30
           runas: ubuntu
