@@ -6,5 +6,5 @@ files:
 hooks:
     ApplicationStop:
         - location: scripts/stop_application.sh
-          timeout: 60
+          timeout: 30
           runas: ubuntu
