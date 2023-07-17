@@ -13,10 +13,6 @@ hooks:
         - location: scripts/install.sh
           timeout: 300
           runas: root
-    BeforeInstall:
-        - location: scripts/clear_folder.sh
-          timeout: 300
-          runas: root
     ApplicationStart:
         - location: scripts/start_application.sh
           timeout: 300
