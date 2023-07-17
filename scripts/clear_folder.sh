@@ -1,3 +1,3 @@
 #!/bin/bash
-cd /home/ubuntu/apps
-sudo rm -rf *
+cd /home/ubuntu/apps/escalenzolink_src
+rm -rf *

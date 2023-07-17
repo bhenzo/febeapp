@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
     - source: /
-      destination: /home/ubuntu/apps
+      destination: /home/ubuntu/apps/escalenzolink_src
 file_exists_behavior: OVERWRITE
 hooks:
     ApplicationStop:
