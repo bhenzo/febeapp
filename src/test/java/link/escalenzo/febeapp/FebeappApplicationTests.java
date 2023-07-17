@@ -9,7 +9,7 @@ class FebeappApplicationTests {
 
 	@Test
 	void contextLoads() {
-		Assert.isTrue(true);
+		Assert.isTrue(false);
 	}
 
 }
