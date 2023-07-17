@@ -11,9 +11,9 @@ import link.escalenzo.febeapp.dto.Comment;
 @RestController
 public class CommentsController {
 
-	@Value("user")
+	@Value("${user}")
 	private String user;
-	@Value("password")
+	@Value("${password}")
 	private String pass;
 	
 	
