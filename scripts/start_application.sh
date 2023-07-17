@@ -1,2 +1,4 @@
 #!/bin/bash
-screen -dmS escalenzo-link java -jar /home/ubuntu/apps/target/febe.jar
+cd /home/ubuntu/apps/target
+echo 'init app' >> log.txt
+screen -dmS escalenzo-link java -jar febe.jar
