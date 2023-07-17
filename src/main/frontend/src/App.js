@@ -15,9 +15,8 @@ function App() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    Learn React
+                    Learn React test test
                 </a>
-                Probando cambios
             </header>
         </div>
     );
