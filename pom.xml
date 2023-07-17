@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>link.escalenzo</groupId>
 	<artifactId>febeapp</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.3-SNAPSHOT</version>
 	<name>febeapp</name>
 	<description>Frontend y backend app, to train aws</description>
 	<properties>
