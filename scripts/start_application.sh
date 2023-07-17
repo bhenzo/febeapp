@@ -1,2 +1,2 @@
 #!/bin/bash
-screen -dmS escalenzo-link cd /home/ubuntu/apps/target && java -jar febe.jar
+screen -dmS escalenzo-link java -jar /home/ubuntu/apps/target/febe.jar
