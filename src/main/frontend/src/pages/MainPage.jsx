@@ -7,10 +7,10 @@ const MainPage = () => {
 
     const prods = [
         {
-            name: "producto 1"
+            name: "producto 1 sdjfhakhfdkjsdahfjk sad"
         },
         {
-            name: "producto 2"
+            name: "producto 2 ajhdsjksdahjkadhksadjsasd"
         }
     ]
 
